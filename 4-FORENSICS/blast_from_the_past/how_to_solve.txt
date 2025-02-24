@@ -1,0 +1,6 @@
+you need to do the changes in my script AS WELL AS manually changing the bytes 
+of the samsung timestamp, as this cannot be done with exiftool. you need to 
+find the bytes using exiftools verbose (-v3) and edit them by making a hex-
+dump with xxd and converting it back with xxd -r. so painful
+
+https://stackoverflow.com/questions/78185037/how-to-edit-the-samsung-trailer-tag-timestamp
